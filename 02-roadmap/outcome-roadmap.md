@@ -1,25 +1,25 @@
-# Outcome Roadmap & Trade-off Memo
+# Outcome Roadmap & Trade-off Memo: Meridian Foundations
 
 > Module 2 · Turn Your Strategy into an Outcome Roadmap
 
 ## 1. Trade-off memo
 
-> **Rock 1:** _____
+> **Rock 1:** Add a photo markup and annotation tool for field teams (supports KR2): Photo markup and annotation mirrors a piece of WhatsApp functionalities and should help simplify the workflow from taking photo to placing it within the system itself. This could be a lower effort, quick win before implementing a separate mobile app. This also came from a frontline individual's interview so it's a request directly from the customer that we suspect are pushing this churn.
 >
-> **Rock 2:** _____
+> **Rock 2:** Simplify the daily log: reduce from 14 required fields to 4 (supports KR1): It's possible that complexity and time is why frontline customers aren't using the current system as is and just using WhatsApp as a workaround. If we can simplify this, then they won't feel compelled to ignore the ideal workflow. This also came from a frontline individual so it's a request directly from the customer that we suspect are pushing this churn.
 >
-> **Rock 3:** _____
+> **Rock 3:** Enable push notifications for schedule changes (supports KR1): It's possible that schedule changes are also being handled outside of the system on WhatsApp. If we can add this quick win, it would simplify the daily workflow for frontline individuals. This also came from a frontline individual so it's a request directly from the customer that we suspect are pushing this churn.
 >
-> **Hard no 1:** _____
+> **Hard no 1:** Refresh the web UI (feedback: “looks outdated” from prospects): UI is not the root cause for the gap between project and finance teams using the platform and the frontline workers, rather functionality and complexity.
 >
-> **Hard no 2:** _____
+> **Hard no 2:** Build an offline-first mobile experience for job sites with poor connectivity: This would rather come after we build a mobile experience for those with proper connectivity, and includes different considerations that could prove to be high effort.
 >
-> **Hard no 3:** _____
+> **Hard no 3:** Add AI-assisted RFI (Request for Information) drafting: This doesn't seem to help reduce churn by tackling the key issues discovered, it rather feels like a 'delight' factor.
 
 ## 2. Outcome roadmap
 
 | Horizon | Outcome / bet | Owning team(s) | Success signal |
 |---|---|---|---|
-| Now (0 to 3 mo) | _____ | _____ | _____ |
-| Next (3 to 6 mo) | _____ | _____ | _____ |
-| Later (6 to 12 mo) | _____ | _____ | _____ |
+| Now (0 to 3 mo) | We bet making Meridian the place frontline work gets recorded will raise field engagement for superintendents and foremen (supports KR2, backlog item 2); We bet making daily reporting quick enough to replace third party apps will move frontline status updates into the platform for superintendents and foremen (supports KR1, backlog item 4); We bet making schedule changes reach crews without leaving the platform will end off-platform scheduling for frontline crews (supports KR1, backlog item 11) | Mobile engineering; UX research; Product (field workflow); Customer success for pilot accounts | Weekly active field users per account; photos and comments per field user per month (KR2); share of daily logs submitted in-platform versus third party apps in pilot accounts (KR1); share of schedule changes acknowledged in-app within 24 hours |
+| Next (3 to 6 mo) | We bet making field updates flow into projects automatically will cut the time enterprise customers spend filing field data (KR3), because it comes after Now since it needs field usage data before it's worth automating; We bet giving executives custom KPI dashboards will protect the two renewals at risk (KR1, backlog item 10), because it comes after Now since it depends on the data model migration (backlog item 3) for multi-project views; We bet a retention-focused lower-cost option for the $25M to $50M band will keep at-risk upper mid-market firms from churning (KR1), because it comes after Now since the pricing needs pilot churn data to set the boundary; We bet proof that field access drives retention will justify the field investment to leadership and the board (KR1), because it comes after Now since it needs enough adopting accounts to compare; We bet fixing the Procore integration will stop churn for the two clients it's currently breaking (KR1, backlog item 8), because it comes after Now as a low-effort fix | Product (field and retention); Engineering; Finance and pricing; Data/analytics; Customer success | Churn rate in pilot cohort versus control (KR1); median time to associate field data with a project (KR3); adoption rate of the retention option; percentage of at-risk accounts saved; renewal outcomes for the two at-risk accounts; churn among the two Procore clients |
+| Later (6 to 12 mo) | We bet a dedicated foreman mobile app could make Meridian the everyday tool for field crews across all customer tiers (bet, not committed, backlog item 7, supports KR2); We bet a deeper enterprise platform for the largest general contractors could protect the complexity premium while field data feeds the system of record (bet, not committed, supports the objective) | Mobile engineering; Enterprise engineering; Integrations; Product leadership | Field-only user share on the platform; retention of top-10 general contractor accounts |
